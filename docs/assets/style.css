@@ -375,6 +375,12 @@ a:hover .btn--link .arr,.btn--link:hover .arr{transform:translateX(3px)}
   .swatch,.specimen{height:64px} .specimen{font-size:56px}
 }
 
+/* ---------- Light / dark pairs ---------- */
+.ld{background:var(--sand);border-radius:14px;padding:64px 48px 56px;display:flex;flex-direction:column;gap:48px}
+.ld__row{display:grid;grid-template-columns:1fr 1fr;gap:32px}
+.ld__fig{margin:0;display:flex;flex-direction:column;gap:16px}
+@media (max-width:760px){ .ld{padding:14px;border-radius:12px;gap:20px} .ld__row{grid-template-columns:1fr;gap:20px} .ld__row--2{display:none} }
+
 /* ---------- Scroll reveal ---------- */
 .js .reveal{opacity:0;transform:translateY(16px);transition:opacity .8s cubic-bezier(.2,.7,.2,1),transform .8s cubic-bezier(.2,.7,.2,1);transition-delay:var(--d,0ms)}
 .js .reveal.is-in{opacity:1;transform:none}

@@ -28,7 +28,7 @@
 (() => {
   const reduce = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
   const sel = ['.slabel','.block','.pcard','.chero > .cover','.feat','.pillar','.module','.flow','.kcell','.band','.drow',
-               '.stage','.landing','.bp figure','.two .kcell','.shot--hero','.skill','.tf__cols > .stack','.next a','.teaser__row',
+               '.stage','.landing','.ld__fig','.bp figure','.two .kcell','.shot--hero','.skill','.tf__cols > .stack','.next a','.teaser__row',
                '.footer__head','.footer__links','.arow > *','.channel','.contact__intro'];
   const els = [...new Set(document.querySelectorAll(sel.join(',')))].filter(el => !el.closest('.hero'));
   if (reduce || !('IntersectionObserver' in window)) return;
