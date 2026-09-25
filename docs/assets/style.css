@@ -381,6 +381,12 @@ a:hover .btn--link .arr,.btn--link:hover .arr{transform:translateX(3px)}
 .ld__fig{margin:0;display:flex;flex-direction:column;gap:16px}
 @media (max-width:760px){ .ld{padding:14px;border-radius:12px;gap:20px} .ld__row{grid-template-columns:1fr;gap:20px} .ld__row--2{display:none} }
 
+/* ---------- Coming soon pill ---------- */
+.soon{align-self:flex-start;display:inline-flex;align-items:center;gap:10px;margin-top:8px;padding:10px 22px;border-radius:999px;background:#EDE6D6;border:1.5px solid #D4CCBB;color:var(--taupe-deep);font-family:var(--sans);font-weight:500;font-size:15px;line-height:1.4}
+.soon__dot{width:7px;height:7px;border-radius:50%;background:var(--taupe);animation:soonPulse 2s ease-in-out infinite}
+@keyframes soonPulse{0%,100%{opacity:1}50%{opacity:.3}}
+@media (prefers-reduced-motion:reduce){.soon__dot{animation:none}}
+@media (max-width:760px){.soon{font-size:14px;padding:9px 18px}}
 /* ---------- Scroll reveal ---------- */
 .js .reveal{opacity:0;transform:translateY(16px);transition:opacity .8s cubic-bezier(.2,.7,.2,1),transform .8s cubic-bezier(.2,.7,.2,1);transition-delay:var(--d,0ms)}
 .js .reveal.is-in{opacity:1;transform:none}
