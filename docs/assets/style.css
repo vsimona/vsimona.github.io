@@ -170,8 +170,8 @@ a:hover .btn--link .arr,.btn--link:hover .arr{transform:translateX(3px)}
 
 /* final UI stages */
 .stage{border-radius:16px;overflow:hidden}
-.stage--phones{background:var(--sand-deep);height:700px;padding-top:96px;display:flex;justify-content:center;gap:32px}
-.stage--phones .off{padding-top:56px}
+.stage--phones{background:var(--sand-deep);padding:64px 0 88px;display:flex;justify-content:center;align-items:flex-start;gap:32px}
+.stage--phones .off{padding-top:24px}
 .stage--layered{background:var(--burgundy);position:relative;aspect-ratio:1280/760}
 .stage--layered .l1{position:absolute;left:6.25%;top:9.47%;width:68.75%}
 .stage--layered .l2{position:absolute;left:60.94%;top:53.95%;width:32.81%}
@@ -240,7 +240,7 @@ a:hover .btn--link .arr,.btn--link:hover .arr{transform:translateX(3px)}
   .band{overflow-x:auto;justify-content:flex-start}
   .band .shot--phone{width:150px}
   .kgrid .shot--phone{width:100%;max-width:300px;border-radius:15%/6.9%}
-  .stage--phones{height:auto;padding:64px 24px 0;overflow:hidden}
+  .stage--phones{height:auto;padding:48px 24px 64px;overflow:hidden}
   .stage--phones .shot--phone{width:22vw;border-radius:15%/6.9%}
   .stage--split{padding:48px 24px}
   .stage--split .big{width:60%} .stage--split .side{width:30%}
@@ -310,10 +310,10 @@ a:hover .btn--link .arr,.btn--link:hover .arr{transform:translateX(3px)}
   .dlist .drow .h3{font-size:15px}
   .dlist .drow .body{font-size:14px;line-height:1.5}
   .stage{border-radius:12px}
-  .stage--phones{padding:32px 16px 0;gap:14px;height:330px}
+  .stage--phones{padding:28px 16px 40px;gap:14px;height:auto}
   .stage--phones .shot--phone{width:150px}
   .stage--phones > :nth-child(n+3){display:none}
-  .stage--phones .off{padding-top:28px}
+  .stage--phones .off{padding-top:14px}
   .stage--layered{aspect-ratio:auto;padding:24px}
   .stage--layered .l1{position:static;width:100%}
   .stage--layered .l2{display:none}
