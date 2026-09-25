@@ -404,3 +404,10 @@ a:hover .btn--link .arr,.btn--link:hover .arr{transform:translateX(3px)}
   html{scroll-behavior:auto}
   *,*::before,*::after{transition:none!important;animation:none!important}
 }
+/* ---------- ResQ visual direction ---------- */
+.specimen.radii{gap:10px;align-items:flex-end}
+.specimen.radii i{display:block;width:56px;height:56px;background:#B4C9B9}
+.specimen.radii i:last-child{width:72px;height:32px}
+.specimen--img{align-items:center;justify-content:flex-start}
+.specimen--img img{height:100%;width:auto;border-radius:8px}
+@media (max-width:760px){.specimen.radii{gap:6px}.specimen.radii i{width:40px;height:40px}.specimen.radii i:last-child{width:52px;height:24px}}
